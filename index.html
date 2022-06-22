@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel = "stylesheet" href="login.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Tamil&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="center">
+        <div class="logo"><div class="title">What is your<div class="mbti">MBTI</div>type?</div></div>
+        <form method="get" action="type.html">
+            <div class="allbutt">
+                <div class = "idpwd">
+                    <input type="text" name="id" placeholder="Username" maxlength="15" required autofocus="">
+                    <input type="text" size="4" list="mbtitype" placeholder="Type">
+                    <datalist id="mbtitype">
+                        <option value = "ENFJ">
+                        <option value = "ENFP">
+                        <option value = "ENTJ">
+                        <option value = "ENTP">
+                        <option value = "ESFJ">
+                        <option value = "ESFP">
+                        <option value = "ESTJ">
+                        <option value = "ESTP">
+                        <option value = "INFJ">
+                        <option value = "INFP">
+                        <option value = "INTJ">
+                        <option value = "INTP">
+                        <option value = "ISFJ">
+                        <option value = "ISFP">
+                        <option value = "ISTJ">
+                        <option value = "ISTP">
+                    </datalist>
+                </div>
+                    <button class ="submitB"type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
